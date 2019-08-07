@@ -1,0 +1,59 @@
+html{color:#000;background:#FFF;}   
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,   
+fieldset,input,textarea,p,blockquote,th,td {    
+  margin:0;   
+ padding:0;   
+}
+em,i { font-style:normal; }  
+body, button, input, select, textarea { font:12px/1.5 tahoma, arial, \5b8b\4f53; } 
+table {   
+    border-collapse:collapse;   
+ border-spacing:0;   
+}   
+fieldset,img {    
+ border:0;   
+}   
+body, button, input, select, textarea{
+    font-family: "阿里巴巴普惠体","SourceHanSansCN*", "微软雅黑";
+}
+address,caption,cite,code,dfn,em,strong,th,var {   
+    font-style:normal;   
+    font-weight:normal;   
+}     
+caption,th {   
+ text-align:left;   
+}   
+/* h1,h2,h3,h4,h5,h6 {   
+  font-size:100%;   
+   font-weight:normal;   
+} */
+ul, ol ,li{ list-style:none; } 
+a { text-decoration:none!important; }   
+q:before,q:after {   
+    content:'';   
+} 
+a:hover { text-decoration:underline; }   
+abbr,acronym { border:0;   
+}
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+.clearfix:before,.clearfix:after{
+    content: " ";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+legend { color:#000; } 
+fieldset, img { border:0; } 
+input{
+  border: 0 none;
+  outline: none;
+}
+img{
+  border: 0 none;
+}
+
