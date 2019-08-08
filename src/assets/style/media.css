@@ -1,0 +1,21 @@
+@media  (max-width: 768px) {
+   
+    .logo{
+        font-size: 20px!important;
+    }
+    .hov:hover{
+            background-color:#ffe300!important;
+            color :black!important
+    }
+}
+@media  (max-width: 1110px) {
+   
+    .nav{
+        font-size: 14px!important;
+    }
+}
+@media  (min-width: 768px) {
+    .mod{
+        display: none
+    }
+}

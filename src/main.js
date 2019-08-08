@@ -6,9 +6,15 @@ import App from './App'
 import './assets/style/reset.css'   // 通用样式
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import 'element-ui/lib/theme-chalk/display.css';
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+// require styles
+import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
+
 
 /* eslint-disable no-new */
 new Vue({
