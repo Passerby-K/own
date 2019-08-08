@@ -69,7 +69,7 @@ export default {
     name:"HomeHead",
     data(){
         return{
-           show:true
+           show:false
             
         }
     },

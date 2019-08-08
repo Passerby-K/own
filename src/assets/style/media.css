@@ -7,6 +7,10 @@
             background-color:#ffe300!important;
             color :black!important
     }
+    .head-swiper{
+        padding: 0px!important ;
+    }
+    
 }
 @media  (max-width: 1110px) {
    
