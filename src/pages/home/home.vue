@@ -4,6 +4,7 @@
         <home-swiper></home-swiper>
         <head-adve></head-adve>
         <zkcon></zkcon>
+        <foot></foot> 
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HomeHead from "./components/home-head";
 import HomeSwiper from "./components/swiper";
 import HeadAdve from "./components/adve";
 import Zkcon from "../content/zk-con";
+import Foot from "../footer/footer";
 
 export default {
   name: 'Home',
@@ -19,7 +21,8 @@ export default {
     HomeHead,
     HomeSwiper,
     HeadAdve,
-    Zkcon
+    Zkcon,
+    Foot
   }
   
 }

@@ -61,8 +61,6 @@ export default {
     width 100%
     min-height 300px
     box-sizing border-box
-    .row
-        border-bottom 1px  solid #999
     .nav
         line-height 50px
         text-align center
