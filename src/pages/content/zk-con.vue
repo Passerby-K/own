@@ -2,18 +2,18 @@
   <div class="zk_content">
       <el-row :span="20" type="flex" justify="center" class="row" >
         <el-col class="el-col" :xs="6"  :sm="5"  :md="5" :lg="2" :xl="2">
-            <div class="nav" ref="nav" @click.prevent="flag='HomePage'" >
-               <span>首页推荐</span>                 
+            <div class="nav" ref="nav"  @click="nav(0)">
+               <span :class=" index==0 ? 'active' :'' ">首页推荐</span>                 
             </div>
         </el-col>
         <el-col class="el-col" :xs="6"  :sm="5"  :md="5" :lg="2" :xl="2" :offset="1">
-            <div class="nav" ref="nav" @click.prevent="flag='News'" >
-             <span>最新发布</span>   
+            <div class="nav" ref="nav"  @click="nav(1)">
+             <span :class=" index==1 ? 'active' :'' ">最新发布</span>   
             </div>
         </el-col>
         <el-col class="el-col" :xs="6"  :sm="5"  :md="5" :lg="2" :xl="2" :offset="1">
-            <div class="nav" ref="nav" @click.prevent="flag='Up'"  >
-               <span>上升最快</span> 
+            <div class="nav" ref="nav"  @click="nav(2)" >
+               <span :class=" index==2 ? 'active' :'' ">上升最快</span> 
             </div>
         </el-col>
       </el-row>
@@ -36,7 +36,11 @@ export default {
     data(){
         return{
             flag:"HomePage",
+            index:"0"
             // title:["首页推荐",'最新发布','上升最快']
+            // active:{
+            //     color:red
+            // }
         }
     },
     components:{
@@ -46,9 +50,35 @@ export default {
 
     },
     methods:{
-        // nav(i){
-        //   i.this.flag="Up"
-        // }
+        nav(i){
+        //   console.log(i)
+          if(i==0){
+              this.flag="HomePage";
+              this.index="0"
+          }else if(i == 1){
+              this.flag="News";
+              this.index="1"
+          }else{
+              this.flag="Up";
+              this.index="2"
+          }
+        }
+        // nav(i) {
+        //     console.log(i);
+        //     if (i == 0) {
+        //      this.flag = "HomePage";
+        //      this.index="0"
+        //     this.active
+        //     } else if (i == 1) {
+        //     this.flag = "News";
+        //     this.index="1"
+
+        //     } else {
+        //     this.flag = "Up";
+        //     this.index="2"
+
+        //     }
+        //     }
         
     }
     
@@ -72,6 +102,13 @@ export default {
             border-bottom 2px solid black
     .conter
         border 1px solid red 
+
+    .active
+        color black
+        padding-bottom  10px
+        border-bottom 2px solid black
+
+
 
 
 </style>
