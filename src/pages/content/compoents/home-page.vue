@@ -1,93 +1,93 @@
 <template>
+      
     <el-row  type="flex" justify="space-around" >
-        <el-col :span="22">
-            <el-row type="flex" justify="center">
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
-                    <div class="img">
-                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
-                    </div>
-                    <p class="font one">一个人的执着</p>
-                    <p class="font two">插画-插画习作</p>
-                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
-                </el-col>
-                
-                
-                
-              
-                
-                
-                
-              
-            </el-row>
-        </el-col>
-            
         
+        <el-col :span="22">
+            <el-row type="flex" justify="center" >
+                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" v-for="item in img" :key="item.id">
+                    <div class="img">
+                        <img :src="item.img" alt="">
+                    </div>
+                    <p class="font one">{{item.one}}</p>
+                    <p class="font two">{{item.two}}</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col>
+                  
+                <!-- <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
+                    <div class="img">
+                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
+                    </div>
+                    <p class="font one">一个人的执着</p>
+                    <p class="font two">插画-插画习作</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col>
+                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
+                    <div class="img">
+                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
+                    </div>
+                    <p class="font one">一个人的执着</p>
+                    <p class="font two">插画-插画习作</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col>
+                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
+                    <div class="img">
+                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
+                    </div>
+                    <p class="font one">一个人的执着</p>
+                    <p class="font two">插画-插画习作</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col>
+                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
+                    <div class="img">
+                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
+                    </div>
+                    <p class="font one">一个人的执着</p>
+                    <p class="font two">插画-插画习作</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col>
+                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
+                    <div class="img">
+                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
+                    </div>
+                    <p class="font one">一个人的执着</p>
+                    <p class="font two">插画-插画习作</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col>
+                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
+                    <div class="img">
+                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
+                    </div>
+                    <p class="font one">一个人的执着</p>
+                    <p class="font two">插画-插画习作</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col>
+                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
+                    <div class="img">
+                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
+                    </div>
+                    <p class="font one">一个人的执着</p>
+                    <p class="font two">插画-插画习作</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col>
+                <el-col class="con-col" :xs="11"  :sm="6"  :md="5" :lg="4" :xl="4" >
+                    <div class="img">
+                        <img src="https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg" alt="">
+                    </div>
+                    <p class="font one">一个人的执着</p>
+                    <p class="font two">插画-插画习作</p>
+                    <p class="font thr"><span><i class="el-icon-thumb"></i>24</span> <span><i class="el-icon-chat-dot-round"></i>20</span> <span><i class="el-icon-place">18</i></span></p>
+                </el-col> -->
+                
+            </el-row>
+            
+        </el-col>
         
     </el-row>
+      
+
+
+        
+
 </template>
 
 <script>
@@ -95,14 +95,47 @@ export default {
     name:"HomePage",
     data(){
         return{
-            // img:[
-            //     "https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
-            //     'https://img.zcool.cn/community/01a4795d539733a8012187f4b1fd4b.jpg@260w_195h_1c_1e_1o_100sh.jpg',
-
-            //     ]
+            img:[
+                {id:"0",
+                img:"https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
+                one:"一个人的执着",
+                two:"插画-插画习作"},
+                {id:"1",
+                img:"https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
+                one:"一个人的执着",
+                two:"插画-插画习作"},
+                {id:"2",
+                img:"https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
+                one:"一个人的执着",
+                two:"插画-插画习作"},
+                {id:"3",
+                img:"https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
+                one:"一个人的执着",
+                two:"插画-插画习作"},
+                {id:"4",
+                img:"https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
+                one:"一个人的执着",
+                two:"插画-插画习作"},
+                {id:"5",
+                img:"https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
+                one:"一个人的执着",
+                two:"插画-插画习作"},
+                {id:"6",
+                img:"https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
+                one:"一个人的执着",
+                two:"插画-插画习作"},
+                {id:"7",
+                img:"https://img.zcool.cn/community/012e4e5d52680ea8012187f4942453.jpg@260w_195h_1c_1e_1o_100sh.jpg",
+                one:"一个人的执着",
+                two:"插画-插画习作"},
+                ]
         }
-    }
-}
+    },
+   
+
+
+   }
+
 
 </script>
 

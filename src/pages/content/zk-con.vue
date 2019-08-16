@@ -46,7 +46,7 @@ export default {
     components:{
         HomePage,
         News,
-        Up
+        Up,
 
     },
     methods:{
